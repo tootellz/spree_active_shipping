@@ -68,7 +68,8 @@ en:
     tracked_packet_usa: "Canada Post Tracked Packet - USA"
     xpresspost_usa: "Canada Post Xpresspost USA"
   australia_post:
-    regular: "Australia Post Regular"
+    regular: "Parcel Post"
+    expresspost: "Express Post"
   shipping_error: "Shipping Error"
   spree:
     product_packages: "Product Packages"
