@@ -1,5 +1,3 @@
-require_dependency 'spree/calculator'
-
 module Spree
 	module Calculator::Shipping
 		module AustraliaPost
