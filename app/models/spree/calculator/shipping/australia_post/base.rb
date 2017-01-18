@@ -1,14 +1,14 @@
 require_dependency 'spree/calculator'
 
 module Spree
-	class Calculator < ActiveRecord::Base
+	module Calculator::Shipping
 		module AustraliaPost
-			class Base < Spree::Calculator::ActiveShipping::Base
+			class Base < Spree::Calculator::Shipping::ActiveShipping::Base
 				def carrier
 					australia_post_options = {
 						:login => Spree::ActiveShipping::Config[:australia_post_login],
 					}
-					ActiveMerchant::Shipping::AustraliaPost.new(australia_post_options)
+					::ActiveShipping::AustraliaPost.new(australia_post_options)
 				end
 			end
 		end

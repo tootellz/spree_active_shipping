@@ -1,9 +1,9 @@
 require_dependency 'spree/calculator'
 
 module Spree
-	class Calculator < ActiveRecord::Base
+	module Calculator::Shipping
 		module AustraliaPost
-			class Regular < Calculator::AustraliaPost::Base
+			class Regular < Spree::Calculator::Shipping::AustraliaPost::Base
 				def self.description
 					I18n.t("australia_post.regular")
 				end
