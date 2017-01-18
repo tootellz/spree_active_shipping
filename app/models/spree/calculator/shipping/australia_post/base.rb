@@ -6,7 +6,7 @@ module Spree
 			class Base < Spree::Calculator::Shipping::ActiveShipping::Base
 				def carrier
 					australia_post_options = {
-						:login => Spree::ActiveShipping::Config[:australia_post_login],
+						:login => Spree::ActiveShipping::Config[:api_key],
 					}
 					::ActiveShipping::AustraliaPost.new(australia_post_options)
 				end
