@@ -71,6 +71,8 @@ en:
     regular: "Parcel Post"
     expresspost: "Express Post"
     international_economy_air: "Economy Air"
+    international_express: "Express"
+    international_standard: "Standard"
   shipping_error: "Shipping Error"
   spree:
     product_packages: "Product Packages"
