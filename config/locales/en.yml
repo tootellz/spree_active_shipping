@@ -70,6 +70,7 @@ en:
   australia_post:
     regular: "Parcel Post"
     expresspost: "Express Post"
+    international_economy_air: "Economy Air"
   shipping_error: "Shipping Error"
   spree:
     product_packages: "Product Packages"
